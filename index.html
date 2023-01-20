@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>lesson-08</title>
+    <style>
+        .custom-margin {
+            margin: 15px;
+        }
+
+        .hide-btn {
+            display: none;
+        }
+
+        .menuArea{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        .menu-off {
+            display: none;
+        }
+        .menu-on {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+<div id="text" class="custom-margin"> Google сохраняет резервные копии веб-страниц на случай, если они станут
+    недоступны.
+    Эти копии хранятся в кеше на серверах Google. Нажав на ссылку "Сохраненная копия", вы откроете
+    резервную копию веб-сайта.
+</div>
+<button id="removeText" class="custom-margin">Click here for remove text!</button>
+
+<br>
+<button id="removeBtn" class="custom-margin">Click here for remove button!</button>
+
+<br>
+<div id="menuArea" class="custom-margin menu-window"> Університет
+    <div id="menu" class="menu-on" >
+        <a href="#">кафедра ІСМ</a>
+        <a href="#">кафедра ЕСМ</a>
+        <a href="#">кафедра політології</a>
+    </div>
+</div>
+<script src="events.js"></script>
+</body>
+</html>
+
+
+
+
